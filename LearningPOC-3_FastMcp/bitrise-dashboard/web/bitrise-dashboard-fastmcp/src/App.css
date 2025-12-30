@@ -1,0 +1,27 @@
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+.container { padding: 16px; }
+header { border-bottom: 1px solid #eee; margin-bottom: 12px; }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 12px;
+}
+.panel {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+.list { list-style: none; padding-left: 0; margin: 0; }
+.list li { padding: 8px 0; border-bottom: 1px solid #f1f1f1; }
+.list li:last-child { border-bottom: none; }
+.link { background: none; border: none; color: #0b5ed7; cursor: pointer; padding: 0; }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.actions button { margin-right: 8px; }
+.form label { display: block; margin-top: 8px; }
+.form input { width: 100%; padding: 8px; margin-top: 4px; }
+.form button { margin-top: 12px; padding: 8px 12px; }
+.log { white-space: pre-wrap; max-height: 40vh; overflow: auto; background: #fafafa; padding: 8px; }
+.error { margin-top: 12px; padding: 8px; background: #ffe2e2; border: 1px solid #ffb3b3; }
